@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 24aee1a5c0e1cbb4c96b94dc498c09cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LuaClassWrap: {fileID: 4900000, guid: 3d04b9a73df52ef4896b9be3a284c891, type: 3}
+  - LuaClassWrapGCM: {fileID: 4900000, guid: d599b41f58631bd41842de85de6a0d56, type: 3}
+  - LuaDelegateBridge: {fileID: 4900000, guid: 3f516d69e0ad0274397d3bcbb763d210, type: 3}
+  - LuaDelegateWrap: {fileID: 4900000, guid: 4bce0642f755a7d45a365dcbb060d4ac, type: 3}
+  - LuaEnumWrap: {fileID: 4900000, guid: faaeb5017edeb0644a32bc0e80f1d703, type: 3}
+  - LuaEnumWrapGCM: {fileID: 4900000, guid: f32abdcccaaf7e64181d3e45fbf64efa, type: 3}
+  - LuaInterfaceBridge: {fileID: 4900000, guid: fab49b527a8902e4286710a924c52b37,
+      type: 3}
+  - LuaRegister: {fileID: 4900000, guid: d892e485f13a12e409ab76d43c0413b8, type: 3}
+  - LuaRegisterGCM: {fileID: 4900000, guid: 9f542998db69339478c0b5dcd4a101bc, type: 3}
+  - LuaWrapPusher: {fileID: 4900000, guid: 4de514804c65ea843826e6e2f634b047, type: 3}
+  - PackUnpack: {fileID: 4900000, guid: 7b662e9a2ae215f4f8461eebe9ed1734, type: 3}
+  - TemplateCommon: {fileID: 4900000, guid: d286fe2fa2a848447937e66351514701, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
