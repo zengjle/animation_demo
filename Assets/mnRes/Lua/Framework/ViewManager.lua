@@ -43,7 +43,7 @@ function ViewManager.Initialize()
 
         canvas.name = li.name
         canvas.transform:SetParent(root.transform, false)
-        canvas.transform.localPosition = UnityEngine.Vector2.zero
+        canvas.transform.localPosition = UnityEngine.Vector3.zero
         canvas.sortingOrder = li.order
         canvas.gameObject:SetActive(true)
 

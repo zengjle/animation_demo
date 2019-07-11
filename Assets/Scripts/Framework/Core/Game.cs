@@ -34,8 +34,10 @@ public class Game : MonoBehaviour {
             managers.Add(ResourceManager.Instance);
             managers.Add(CoroutineManager.Instance);
             managers.Add(PatchManager.Instance);
-            managers.Add(Comon.Instance);
-                        // 最后添加 LuaManager
+            managers.Add(NetworkManager.Instance);
+            managers.Add(TimeManager.Instance);
+
+            // 最后添加 LuaManager
             managers.Add(LuaManager.Instance);
         }
 

@@ -131,6 +131,13 @@ namespace XLua
             }
         }
 
+        protected void OnAnimation(string funName)
+        {
+             Action<LuaTable> func = table.Get<string, Action<LuaTable>>(funName);
+             runNow(func);
+
+        }
+
         protected void OnApplicationQuit()
         {
             appQuitting = true;

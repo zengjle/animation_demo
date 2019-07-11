@@ -4,9 +4,10 @@
 
 UnityEngine = CS.UnityEngine
 ResourceManager = CS.ResourceManager.Instance
-Comon = CS.Comon.Instance
 CoroutineManager = CS.CoroutineManager.Instance
 LuaManager = CS.LuaManager.Instance
+NetworkManager = CS.NetworkManager.Instance
+TimeManager = CS.TimeManager.Instance
 Object = CS.UnityEngine.Object
 GameObject = CS.UnityEngine.GameObject
 UObject = CS.UnityEngine.Object

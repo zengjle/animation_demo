@@ -13,6 +13,10 @@ public static class XLuaConfig
             {
                 typeof(WaitForSeconds),
                 typeof(WWW),
+                typeof(System.Object),
+                typeof(UnityEngine.Object),
+                typeof(Transform),
+                typeof(PlayerPrefs),
             };
         }
     }
@@ -22,6 +26,8 @@ public static class XLuaConfig
     public static List<Type> LuaCallCSharpReflection {
         get {
             return new List<Type>() {
+                typeof(UnityEngine.Application),
+                typeof(UnityEngine.Screen),
             };
         }
     }

@@ -50,6 +50,8 @@ MonoBehaviour:
   LuaBytecodePath: bytecode
   PackPaths:
   - mnRes/Prefabs
+  - mnRes/Ani
+  - mnRes/Images
   - Scenes
   IgnorePaths:
   - Assets/Scenes/Entrance.unity
@@ -65,4 +67,5 @@ MonoBehaviour:
   AllFile2SingleAB:
   - Assets/Scenes
   Path2SingleAB: []
-  AllPath2SingleAB: []
+  AllPath2SingleAB:
+  - mnRes/Images

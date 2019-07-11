@@ -12,7 +12,11 @@ public class Entrance : MonoBehaviour {
 
     bool switchSplashEnd = false;
 
-    bool useAssetBundle = true;         // 是否使用 Asset Bundle
+#if UNITY_EDITOR
+    bool useAssetBundle = false;         // 是否使用 Asset Bundle
+#else
+    bool useAssetBundle = true;
+#endif
 
     GameObject gameLoader;              // 更新完成后的游戏加载器
 
@@ -31,10 +35,6 @@ public class Entrance : MonoBehaviour {
 #endif
 
     void Awake() {
-
-#if UNITY_EDITOR
-        bool useAssetBundle = false;
-#endif
 
         if (splashRoot != null ) {
             splashRoot.SetActive(true);

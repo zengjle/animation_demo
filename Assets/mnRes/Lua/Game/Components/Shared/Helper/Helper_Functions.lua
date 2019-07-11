@@ -12,9 +12,11 @@ Helper.Switch2Lobby = function (preLoaded, postLoaded)
             end
         end))
 
+        print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+
         TaskManager.AddTask(Task_NextContext.New(1,ViewManager.GetContext('Lobby')))
 
-        TaskManager.AddTask(Task_LoadComponent.New(1, Game.Lobby))
+        TaskManager.AddTask(Task_LoadComponent.New(1, Game.home))
 
         TaskManager.AddTask(Task_WaitSceneSwitched.New(1))
 

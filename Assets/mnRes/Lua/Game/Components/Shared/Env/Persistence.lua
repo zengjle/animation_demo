@@ -10,6 +10,8 @@ Persistence.account = {}
 -- 最近一次选择的服务器相关数据
 Persistence.lastServer = {}
 
+Persistence.test_data = {}
+
 function Persistence.Initialize()
 	print('[Persistence] initialize')
 
